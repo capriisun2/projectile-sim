@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main () {
-    int h0 = 40, h1, hmax, t1, t2, t, range, v0 = 20, v0, v0x, theta = 0, N = 90;
+    int h0 = 40, h1, hmax, t1, t2, t, range, v0 = 20, v0y, v0x, theta = 0, N = 90;
     FILE * fileout1;
     fileout1 = fopen(range, rangevals);
 
