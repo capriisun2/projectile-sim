@@ -12,7 +12,7 @@ int main () {
         v0y = v0 * sin(theta * M_PI / 180);
         v0x = v0 * cos(theta * M_PI / 180);
         t1 = v0y / 9.8;
-        h1 = 0/.5 * 9.8 * pow(t1, 2);
+        h1 = 0.5 * 9.8 * pow(t1, 2);
         hmax = h0 + h1;
         t2 = pow( (2 * hmax / 9.8), 0.5 );
         t = t1 + t2;
